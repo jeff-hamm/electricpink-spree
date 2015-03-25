@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
+# gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -39,9 +39,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-
-gem 'spree', '2.4.2'
-gem 'spree_gateway', :git => 'https://github.com/spree/spree_auth_devise', :branch => '2-4-stable'
-gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-4-stable'
-gem 'spree_fancy', :git => 'git://github.com/spree/spree_fancy.git', :branch=> '2-4-stable'
-
+gem 'spree', "2.4.6"
+gem 'spree_gateway', path: 'vendor/gems/spree_gateway'
+gem 'spree_auth_devise', path: 'vendor/gems/spree_auth_devise'
+gem 'spree_fancy', path: 'vendor/gems/spree_fancy'
