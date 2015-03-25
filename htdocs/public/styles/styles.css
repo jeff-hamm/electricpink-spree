@@ -1,0 +1,25 @@
+body {
+    background-color: #000000;
+	font-family: verdana;
+}
+div.logo {
+	background-image: url('../images/logo2.png');
+	background-repeat: no-repeat;
+	width: 325px;
+    height: 490px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+p.logotext {
+   position: absolute;
+   bottom: 0;
+   right: 40;
+   color: #EE55B1;
+	margin-left: auto; margin-right: auto;
+}
