@@ -1,0 +1,13 @@
+[submodule "spree_gateway"]
+	path = vendor/gems/spree_gateway
+	url = https://github.com/spree/spree_gateway.git
+	branch = 2-4-stable
+
+[submodule "spree_auth_devise"]
+    path = vendor/gems/spree_auth_devise
+    url = https://github.com/spree/spree_auth_devise
+
+[submodule "spree_fancy"]
+    path = vendor/gems/spree_fancy
+    url = https://github.com/spree-contrib/spree_fancy.git
+    branch = 2-4-stable
